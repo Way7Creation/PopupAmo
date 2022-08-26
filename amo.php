@@ -11,7 +11,7 @@ if(!empty($_POST['email']) and !empty($_POST['phone'])){
   $sub = "Сообщение с сайта https://w7c.ru/popuptest.php";
 
   /* Формат письма */
-  mail('vseelectrocom@mail.ru', $sub, 
+  mail('order@salesgenerator.pro', $sub, 
        "Вам написал: ".$email."\nЕго номер: ".$phone. "\n\nContent-type:text/html;charset=windows-1251");
 }
 else {
