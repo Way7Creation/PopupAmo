@@ -29,7 +29,7 @@ $custom_field_id = 454021;
 $custom_field_value = 'тест';
 
 $ip = '1.2.3.4';
-$domain = 'site.ua';
+$domain = 'w7c.ru';
 $price = 0;
 $target = 'Цель';
 $pipeline_id = 5704864;
