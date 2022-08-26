@@ -25,8 +25,6 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $phone = str_replace(['(',')','-','+',' '], '', $phone );
 
-$custom_field_id = 454021;
-$custom_field_value = 'тест';
 
 $ip = '1.2.3.4';
 $domain = 'w7c.ru';
