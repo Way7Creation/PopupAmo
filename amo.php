@@ -35,17 +35,9 @@ $target = 'Цель';
 $pipeline_id = 5704864;
 $user_amo = 8483899;
 
-$utm_source   = '';
-$utm_content  = '';
-$utm_medium   = '';
-$utm_campaign = '';
-$utm_term     = '';
-$utm_referrer = '';
-
 $data = [
     [
         "name" => $name,
-        "price" => 0,
         "responsible_user_id" => (int) $user_amo,
         "pipeline_id" => (int) $pipeline_id,
         "_embedded" => [
