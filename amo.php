@@ -11,7 +11,7 @@ if(!empty($_POST['email']) and !empty($_POST['phone'])){
   $sub = "Сообщение с сайта https://w7c.ru/popuptest.php";
 
   /* Формат письма */
-  mail('order@salesgenerator.pro', $sub, 
+  mail('vseelectrocom@mail.ru', $sub, 
        "Вам написал: ".$email."\nЕго номер: ".$phone. "\n\nContent-type:text/html;charset=windows-1251");
 }
 else {
@@ -20,7 +20,7 @@ else {
 
 require_once 'access.php';
 
-$name = 'Мусинский Алексей';
+$name = 'Заявка — Мусинский Алексей';
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $phone = str_replace(['(',')','-','+',' '], '', $phone );
@@ -31,6 +31,7 @@ $custom_field_value = 'тест';
 $ip = '1.2.3.4';
 $domain = 'site.ua';
 $price = 0;
+$target = 'Цель';
 $pipeline_id = 5704864;
 $user_amo = 8483899;
 
@@ -48,6 +49,15 @@ $data = [
         "responsible_user_id" => (int) $user_amo,
         "pipeline_id" => (int) $pipeline_id,
         "_embedded" => [
+            "metadata" => [
+                "category" => "forms",
+                "form_id" => 1,
+                "form_name" => "Форма на сайте",
+                "form_page" => $target,
+                "form_sent_at" => strtotime(date("Y-m-d H:i:s")),
+                "ip" => $ip,
+                "referer" => $domain
+            ],
             "contacts" => [
                 [
                     "first_name" => $name,
