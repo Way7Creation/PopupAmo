@@ -1,0 +1,128 @@
+.container {
+    min-width: auto;
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    min-width: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.buttonmobile-container{
+    display: flex;
+    min-width: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-link {
+    color: white;
+    text-decoration: none;
+    width: 235px;
+    height: 70px;
+    background-color: #ff0000;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Модальное окно */
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: fixed;
+    cursor: default;
+}
+
+.overlay:target {
+    display: block;
+}
+
+/* стили модального окна для пк*/
+.popup-block.layout {
+    top: -100%;
+    right: 0;
+    width: 909px;
+    height: 555px;
+    left: 50%;
+    z-index: 20;
+    margin: 0;
+    position: fixed;
+}
+
+.popupmobile-block.layout {
+    top: -100%;
+    right: 0;
+    width: 389px;
+    height: 656px;
+    left: 50%;
+    z-index: 20;
+    margin: 0;
+    position: fixed;
+}
+
+@media (min-width: 992px) {
+    .popupmobile-block.layout{
+        display: none;
+    }
+    .buttonmobile-container{
+        display: none;
+    }
+    
+
+}
+
+@media (max-width: 992px) {
+    .popup-block.layout{
+        display: none;
+    }
+    .button-container{
+        display: none;
+    }
+    
+
+}
+
+/* активируем модальный блок */
+.overlay:target+.popup {
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 20%;
+}
+.overlay:target+.popupmobile {
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 10%;
+    
+}
+
+/* формируем кнопку закрытия */
+.close {
+    top: 21px;
+    right: 18px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    background: url("../assets/close.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

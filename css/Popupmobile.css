@@ -1,0 +1,199 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.popupmobile-block {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 27px 27px 27px 27px;
+}
+/* .popupmobile-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 389px;
+  min-width: 389px;
+} */
+.popupmobile-icon {
+  background: var(--src) center center/cover no-repeat;
+  cursor: pointer;
+}
+.popupmobile-icon.layout {
+  position: absolute;
+  top: 20px;
+  height: 16px;
+  width: 16px;
+  right: 20px;
+}
+.popupmobile-image {
+  background: var(--src) center center/cover no-repeat;
+}
+.popupmobile-image.layout {
+  position: absolute;
+  top: 20px;
+  height: 204px;
+  width: 291px;
+  right: 49px;
+}
+.popupmobile-flex {
+  display: flex;
+  flex-direction: column;
+}
+.popupmobile-flex.layout3 {
+  position: relative;
+  flex-grow: 1;
+  margin: 202px 20px 30px;
+}
+.popupmobile-flex1 {
+  display: flex;
+  justify-content: center;
+}
+.popupmobile-flex1.layout {
+  position: relative;
+  margin: 0px 12px;
+}
+.popupmobile-flex-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 37px;
+}
+.popupmobile-image1 {
+  background: var(--src) center center/cover no-repeat;
+}
+.popupmobile-image1.layout {
+  position: relative;
+  height: 43px;
+  width: 37px;
+  min-width: 37px;
+}
+.popupmobile-flex-spacer {
+  flex: 0 1 11px;
+}
+.popupmobile-flex.layout2 {
+  position: relative;
+  margin: 23px 0px 0px;
+}
+.popupmobile-medium-title {
+  display: flex;
+  justify-content: center;
+  font: 700 26px/1.16 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 0px;
+}
+.popupmobile-medium-title.layout {
+  position: relative;
+  margin: 0px 7px 0px 5px;
+}
+.popupmobile-flex.layout {
+  position: relative;
+  margin: 25px 0px 0px;
+}
+.popupmobile-highlights {
+  font: 15px/1.16 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: 0px;
+}
+.popupmobile-highlights.layout {
+  position: relative;
+}
+.popupmobile-cover-block {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a0a0a0;
+  border-radius: 5px 5px 5px 5px;
+}
+.popupmobile-cover-block.layout {
+  position: relative;
+  margin: 5px 0px 0px;
+}
+.popupmobile-subtitle-box.layout {
+  position: relative;
+  flex-grow: 1;
+  width: 90%;
+  margin: 17px 76.5% 11px 5.44%;
+}
+.popupmobile-subtitle {
+  font: 20px/1.16 "Open Sans", Helvetica, Arial, serif;
+  color: #a0a0a0;
+  letter-spacing: 0px;
+  background-color: transparent;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  vertical-align: top;
+}
+input.popupmobile-subtitle {
+  color: #000;
+}
+
+.popupmobile-subtitle:focus {
+  outline: none;
+}
+.popupmobile-flex.layout1 {
+  position: relative;
+  margin: 33px 0px 0px;
+}
+.popupmobile-highlights.layout1 {
+  position: relative;
+  margin: 0px 5px 0px 0px;
+}
+.popupmobile-subtitle-box.layout1 {
+  position: relative;
+  flex-grow: 1;
+  width: 90%;
+  margin: 17px 51.29% 11px 5.44%;
+}
+.popupmobile-block1 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/cover no-repeat;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+.popupmobile-block1.layout {
+  position: relative;
+  margin: 18px 0px 0px;
+}
+.popupmobile-flex2 {
+  display: flex;
+}
+.popupmobile-flex2.layout {
+  position: relative;
+  flex-grow: 1;
+  width: 63.9%;
+  margin: 16px auto;
+}
+.popupmobile-medium-title1 {
+  font: 600 24px/1.16 "Open Sans", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+}
+.popupmobile-medium-title1.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: 70px;
+  background: linear-gradient(177.77deg, #37DB73 1.87%, #37DB73 98.13%);
+  border-radius: 5px;
+  border: 0;
+  margin: 6px 0px 5px;
+  
+}
+.popupmobile-flex-spacer1 {
+  flex: 0 1 14px;
+}
+.popupmobile-flex-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 35px;
+}
+.popupmobile-image3 {
+  background: var(--src) center center/cover no-repeat;
+}
+.popupmobile-image3.layout {
+  position: relative;
+  height: 39px;
+  width: 35px;
+  min-width: 35px;
+}
